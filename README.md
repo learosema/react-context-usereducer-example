@@ -1,2 +1,1 @@
-# react-context-usereducer-example
-Created with CodeSandbox
+# React createContext + useReducer demo

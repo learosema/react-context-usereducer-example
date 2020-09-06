@@ -1,0 +1,41 @@
+.form {
+  max-width: 600px;
+  margin: 16px auto;
+  padding: 8px;
+  background: papayawhip;
+  border: 2px solid hotpink;
+}
+
+.form label:not(:first-of-type) {
+  margin: 8px 0 0 0;
+  display: block;
+}
+
+.form button {
+  cursor: pointer;
+  display: block;
+  margin: 4px 0;
+  padding: 8px;
+  width: 100%;
+  border: 2px solid #444;
+  background: #444;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.form input {
+  background: #fff;
+  color: #222;
+  border: 2px solid orange;
+  font-size: 22px;
+  font-family: sans-serif;
+  padding: 4px;
+  margin: 4px 0;
+  width: 100%;
+}
+
+.form input:focus {
+  border-color: #000;
+}
